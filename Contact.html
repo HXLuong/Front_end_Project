@@ -1,0 +1,185 @@
+<div class="bg-body-tertiary py-5 px-4">
+    <div class="row w-100 d-flex flex-wrap justify-content-between m-0">
+        <div class="col-lg-6 col-sm-12">
+            <h4 class="fs-4 text-danger" style="font-family: 'Satisfy';">Liên Hệ</h4>
+            <h2 class="fw-bolder mb-2" style="font-size: 45px;">Thông Tin Liên Hệ</h2>
+            <p class="lh-base text-secondary"" style=" font-size: 15px;">
+                <span>Quầy lễ tân của HXLuong sẵn sàng hỗ trợ hướng dẫn du lịch tốt nhất. Có một ranh giới mong manh
+                    giữa thiên tài và sự điên rồ. Hướng dẫn du lịch của chúng tôi ở đây để xóa những dòng này. Hãy
+                    liên hệ với chúng tôi để chuyến đi của bạn được trọn vẹn nhất.</span>
+            </p>
+            <div class="d-flex flex-wrap mt-4 pt-4 gap-5 border-top">
+                <div class="d-flex align-items-center gap-3">
+                    <div class="bg-white py-2 px-3 border rounded d-flex justify-content-between align-items-center">
+                        <i class="bi bi-chat-right-text fs-5 text-danger"></i>
+                    </div>
+                    <div class="mt-3">
+                        <h3 class="fs-5 fw-bold lh-sm">Địa chỉ Email</h3>
+                        <p class="lh-base text-secondary"" style=" font-size: 15px;">
+                            luonghxps31497@fpr.edu.vn
+                        </p>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center gap-3">
+                    <div class="bg-white py-2 px-3 border rounded d-flex justify-content-between align-items-center">
+                        <i class="bi bi-telephone-outbound fs-5 text-danger"></i>
+                    </div>
+                    <div class="mt-3">
+                        <h3 class="fs-5 fw-bold lh-sm">Số điện thoại</h3>
+                        <p class="lh-base text-secondary"" style=" font-size: 15px;">
+                            0242 242 0777
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6 col-sm-12 px-4 pt-3 border bg-white rounded">
+            <h2 class="fs-4 fw-bold lh-base">Để lại một câu Trả Lời</h2>
+            <form name="frmContact" class="d-flex flex-wrap justify-content-between">
+                <div class="position-relative mb-2" style="width: 48%;">
+                    <i class="bi bi-person position-absolute text-danger mt-1 fs-5"></i>
+                    <input class="ps-4 ms-1 fs-6 border-0 border-bottom text-secondary"
+                        style="outline: none; width: 100%; height: 35px" type="text" placeholder="Tên của bạn" required
+                        name="txtName" ng-model="name">
+                    <label ng-show="frmContact.txtName.$invalid" class="text-danger">* Bạn chưa nhập Tên</label>
+                </div>
+                <div class="position-relative mb-2" style="width: 48%;">
+                    <i class="bi bi-envelope position-absolute text-danger mt-1 fs-5"></i>
+                    <input class="ps-4 ms-1 fs-6 border-0 border-bottom text-secondary"
+                        style="outline: none; width: 100%; height:35px" type="email" placeholder="Email của bạn"
+                        required name="txtEmail" ng-model="email">
+                    <label ng-show="frmContact.txtEmail.$invalid" class="text-danger">* Email chưa đúng định
+                        dạng</label>
+                </div>
+                <div class="position-relative mb-2" style="width: 48%;">
+                    <i class="bi bi-gender-ambiguous position-absolute text-danger mt-1 fs-5"></i>
+                    <select class="ps-4 ms-1 fs-6 border-0 border-bottom text-secondary"
+                        style="outline: none; width: 100%; height:35px" placeholder="Giới tính của bạn" required
+                        name="cboGender" ng-model="gender">
+                        <option value> Giới tính của bạn</option>
+                        <option> Nam</option>
+                        <option> Nữ</option>
+                        <option> Khác</option>
+                    </select>
+                    <label ng-show="frmContact.cboGender.$invalid" class="text-danger">* Bạn chưa chọn Giới tính</label>
+                </div>
+                <div class="position-relative mb-2" style="width: 48%;">
+                    <i class="bi bi-telephone position-absolute text-danger mt-1 fs-5"></i>
+                    <input class="ps-4 ms-1 fs-6 border-0 border-bottom text-secondary"
+                        style="outline: none; width: 100%; height:35px" minlength="10" maxlength="10" type="text"
+                        placeholder="Số điện thoại của bạn" required name="txtPhoneNumber" ng-model="phoneNumber">
+                    <label ng-show="frmContact.txtPhoneNumber.$invalid" class="text-danger">* Số điện thoại phải 10
+                        số</label>
+                </div>
+                <div class="position-relative mb-2 w-100">
+                    <i class="bi bi-houses position-absolute text-danger mt-1 fs-5"></i>
+                    <input class="ps-4 ms-1 fs-6 border-0 border-bottom text-secondary"
+                        style="outline: none; width: 100%; height:35px" type="text" placeholder="Địa chỉ của bạn"
+                        required name="txtLocation" ng-model="location">
+                    <label ng-show="frmContact.txtLocation.$invalid" class="text-danger">* Bạn chưa nhập Địa chỉ</label>
+                </div>
+                <div class="position-relative mb-2 w-100">
+                    <i class="bi bi-pen position-absolute text-danger fs-5"></i>
+                    <textarea class="ps-4 ms-1 fs-6 border-0 border-bottom text-secondary" placeholder="Tin nhắn" id
+                        cols="30" rows="3" style="outline: none; width: 100%;" required name="txtMessage"
+                        ng-model="message"></textarea>
+                    <label ng-show="frmContact.txtMessage.$invalid" class="text-danger">* Bạn chưa nhập Tin nhắn</label>
+                </div>
+                <div class="position-relative mb-2 w-100">
+                    <button type="submit" class="w-100 bg-danger rounded border fs-6 fw-medium text-white mb-2"
+                        style="height: 50px; outline: none;">Gửi tin nhắn</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<div class="my-5 mx-4">
+    <div class="w-100 d-flex flex-wrap justify-content-between m-0">
+        <div class="bg-body-tertiary rounded border p-4" style="width: 32%;">
+            <div class="pb-2 mb-4 border-bottom">
+                <div class="d-flex align-items-center gap-3">
+                    <i class="bi bi-person-plus text-danger" style="font-size: 55px;"></i>
+                    <div>
+                        <p class="m-0 text-secondary"" style=" font-size: 16px;">
+                            Phục vụ 24/7
+                        </p>
+                        <h2 class="fw-bolder mt-2" style="font-size: 22px;">Gọi Cho Chúng Tôi</h2>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <p class="lh-sm text-secondary" style=" font-size: 15px;">
+                    0242 242 0777 (Miễn phí),
+                </p>
+                <p class="lh-sm text-secondary m-0" style=" font-size: 15px;">
+                    0242 242 0777 (Hỗ trợ)
+                </p>
+            </div>
+        </div>
+
+        <div class="bg-body-tertiary rounded border p-4" style="width: 32%;">
+            <div class="pb-2 mb-4 border-bottom">
+                <div class="d-flex align-items-center gap-3">
+                    <i class="bi bi-envelope-paper text-danger" style="font-size: 55px;"></i>
+                    <div>
+                        <p class="m-0 text-secondary"" style=" font-size: 16px;">
+                            Thả một dòng
+                        </p>
+                        <h2 class="fw-bolder mt-2" style="font-size: 22px;">Gửi Mail Cho Chúng Tôi</h2>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <p class="lh-sm text-secondary m-0" style=" font-size: 15px;">
+                    luonghxps31497@fpt.edu.vn
+                </p>
+            </div>
+        </div>
+
+        <div class="bg-body-tertiary rounded border p-4" style="width: 32%;">
+            <div class="pb-2 mb-4 border-bottom">
+                <div class="d-flex align-items-center gap-3">
+                    <i class="bi bi-map text-danger" style="font-size: 55px;"></i>
+                    <div>
+                        <p class="m-0 text-secondary"" style=" font-size: 16px;">
+                            Vị trí
+                        </p>
+                        <h2 class="fw-bolder mt-2" style="font-size: 22px;">Ghé Thăm Chúng Tôi</h2>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <p class="lh-sm text-secondary m-0" style=" font-size: 15px;">
+                    Cao đẳng FPT Polytechnic Tp.HCM
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="my-5 mx-4">
+    <div class="w-100 d-flex flex-wrap justify-content-between m-0">
+        <div style="width: 45%;">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d979.6110406979969!2d106.62521471121981!3d10.853782858768128!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752b6c59ba4c97%3A0x535e784068f1558b!2zVHLGsOG7nW5nIENhbyDEkeG6s25nIEZQVCBQb2x5dGVjaG5pYw!5e0!3m2!1svi!2s!4v1705413743438!5m2!1svi!2s"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div style="width: 53%;">
+            <div>
+                <h2 class="fs-3 fw-bold lh-lg mb-2">Câu Hỏi Chung</h2>
+                <p class="lh-base text-secondary" style=" font-size: 15px;">
+                    HXLuong đã được APF mua lại và vào năm 2024, chúng tôi đã ra mắt thị trường du lịch để kết nối trực
+                    tiếp khách du lịch với các công ty điều hành tour du lịch địa phương trên khắp thế giới.
+                </p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item fs-5 fw-bold pb-3 mb-2 ps-0">Các chuyến đi có thể được đặt trước</li>
+                <li class="list-group-item fs-5 fw-bold pb-3 mb-2 ps-0">Một chuyến đi được thiết kế riêng</li>
+                <li class="list-group-item fs-5 fw-bold pb-3 ps-0">Chính sách thanh toán và hủy bỏ</li>
+                <li class="list-group-item"></li>
+            </ul>
+        </div>
+    </div>
+</div>

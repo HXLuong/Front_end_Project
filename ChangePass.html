@@ -1,0 +1,42 @@
+<div class="container my-5">
+    <div>
+        <h3 class="fs-3 text-center text-danger" style="font-family: 'Satisfy';">Đổi mật khẩu</h3>
+    </div>
+    <form name="fmrChangePass" class="p-5 w-50 offset-sm-3 shadow-lg position-relative z-1 pb-0 rounded">
+        <div class="row">
+            <div class="w-100 me-2 mb-3">
+                <div class="form-group position-relative d-block">
+                    <label class="fw-medium mb-1">Tên đăng nhập *</label>
+                    <input type="text" placeholder="{{info.username}}" class="form-control" disabled>
+                </div>
+            </div>
+            <div class="w-100 me-2 mb-3">
+                <div class="form-group position-relative d-block">
+                    <label class="fw-medium mb-1">Mật khẩu cũ *</label>
+                    <input type="password" class="form-control" required name="txtOldPass" ng-model="info.oldPass">
+                </div>
+                <label ng-show="fmrChangePass.txtOldPass.$invalid" class="text-danger">* Bạn chưa nhập Mật khẩu
+                    cũ</label>
+            </div>
+            <div class="w-100 me-2 mb-3">
+                <div class="form-group position-relative d-block">
+                    <label class="fw-medium mb-1">Mật khẩu mới *</label>
+                    <input type="password" class="form-control" required name="txtPass" ng-model="info.password">
+                </div>
+                <label ng-show="fmrChangePass.txtPass.$invalid" class="text-danger">* Bạn chưa nhập Mật khẩu mới</label>
+            </div>
+            <div class="w-100 me-2 mb-5">
+                <div class="form-group position-relative d-block">
+                    <label class="fw-medium mb-1">Xác nhận mật khẩu *</label>
+                    <input type="password" class="form-control" required name="txtValPass" ng-model="info.Valpassword">
+                </div>
+                <label ng-show="fmrChangePass.txtValPass.$invalid" class="text-danger">* Bạn chưa nhập Xác nhận mật
+                    khẩu</label>
+                <label ng-show="fmrChangePass.txtValPass.$valid" ng-if="info.Valpassword != info.password"
+                    class="text-danger">* Xác nhận mật khẩu chưa đúng</label>
+            </div>
+            <div class="w-100 d-flex justify-content-center mb-4">
+                <a href="" type="button" class="btn btn-danger w-25" ng-click="ChangePass()">Cập nhật</a>
+            </div>
+    </form>
+</div>

@@ -1,0 +1,31 @@
+<div class="container my-5">
+    <div>
+        <h3 class="fs-3 text-center text-danger" style="font-family: 'Satisfy';">Cập Nhật Hồ Sơ</h3>
+    </div>
+    <form name="fmrInfomation" class="p-5 w-50 offset-sm-3 shadow-lg position-relative z-1 pb-0 rounded">
+        <div class="row">
+            <div class="w-100 me-2 mb-3">
+                <div class="form-group position-relative d-block">
+                    <label class="fw-medium mb-1">Tên đăng nhập *</label>
+                    <input type="text" placeholder="{{info.username}}" class="form-control" disabled>
+                </div>
+            </div>
+            <div class="w-100 me-2 mb-3">
+                <div class="form-group position-relative d-block">
+                    <label class="fw-medium mb-1">Email *</label>
+                    <input type="email" placeholder="{{info.email}}" class="form-control" required name="txtEmail" ng-model="info.email">
+                </div>
+                <label ng-show="fmrInfomation.txtEmail.$invalid" class="text-danger">* Email chưa đúng định dạng</label>
+            </div>
+            <div class="w-100 me-2 mb-5">
+                <div class="form-group position-relative d-block">
+                    <label class="fw-medium mb-1">Số điện thoại *</label>
+                    <input type="text" placeholder="{{info.phoneNumber}}" minlength="10" maxlength="10" class="form-control" required name="txtPhoneNumber" ng-model="info.phoneNumber">
+                </div>
+                <label ng-show="fmrInfomation.txtPhoneNumber.$invalid" class="text-danger">* Bạn chưa nhập Số điện thoại</label>
+            </div>
+            <div class="w-100 d-flex justify-content-center mb-4">
+                <a href="" type="button" class="btn btn-danger w-25" ng-click="UpdateInfo()">Cập nhật</a>
+            </div>
+    </form>
+</div>

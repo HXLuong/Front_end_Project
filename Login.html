@@ -1,0 +1,55 @@
+<div class="img" style="background-image: url(/ASM/images/perfect-destinations-4.jpg); height: 710px;">
+  <div class="Login position-absolute bg-white shadow rounded end-0" style="width: 400px; max-height: 490px;">
+    <div class="d-flex align-items-center justify-content-center" style="height: 80px;">
+      <h5>Đăng Nhập</h5>
+    </div>
+    <div class="pt-0 pb-3 px-3">
+      <form name="frmLogin">
+        <div class="input-group">
+          <span class="input-group-text" id="basic-addon1"><i class="bi bi-person-fill"></i></span>
+          <input type="text" class="form-control" placeholder="Tên đăng nhập" required name="txtUsername"
+          ng-model="info.username">
+        </div>
+        <label ng-show="frmLogin.txtUsername.$invalid" class="text-danger">* Bạn chưa nhập Tên đăng nhập</label>
+        <div class="input-group mt-3 position-relative">
+          <span class="input-group-text" id="basic-addon1"><i class="bi bi-lock-fill"></i></span>
+          <input type="password" class="form-control" placeholder="Mật khẩu" required
+          name="txtPassword" ng-model="info.password">
+        </div>
+        <label ng-show="frmLogin.txtPassword.$invalid" class="text-danger">* Bạn chưa nhập Mật khẩu</label>
+        <div class="form-group my-3">
+          <button type="submit" class="form-control btn btn-danger" ng-click="login()">
+            Đăng Nhập
+          </button>
+        </div>
+        <div class="form-group mb-3 d-flex">
+          <div class="w-50">
+            <label class="checkbox-wrap text-danger">
+              <input type="checkbox" checked> Nhớ Mật Khẩu
+            </label>
+          </div>
+          <div class="w-50 ps-5 ms-4">
+            <a class="text-decoration-none text-danger" href="#">Quên Mật Khẩu?</a>
+          </div>
+        </div>
+      </form>
+      <p class="w-100 text-center text-secondary mb-3">-- Hoặc Đăng Nhập Với --</p>
+      <div class="w-100 d-flex text-center">
+        <a class="w-50 d-flex text-decoration-none py-2 border justify-content-center me-2 rounded" href="">
+          <i class="bi bi-facebook me-1"></i>
+          <p class="text-secondary m-0">Facebook</p>
+        </a>
+        <a class="w-50 d-flex text-decoration-none py-2 border justify-content-center rounded" href="">
+          <i class="bi bi-google text-warning me-1"></i>
+          <p class="text-secondary m-0">Google</p>
+        </a>
+      </div>
+    </div>
+    <div class="d-flex align-items-center justify-content-center" style="height: 80px;">
+      <div class="d-flex text-center">
+        <p class="text-secondary me-2">Bạn mới biết đến HXLuong?</p>
+        <a class="text-decoration-none text-danger" href="#!SignUp">Đăng Ký</a>
+      </div>
+    </div>
+  </div>
+</div>

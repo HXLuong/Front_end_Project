@@ -1,0 +1,64 @@
+<div class="img" style="background-image: url(/ASM/images/perfect-destinations-4.jpg); height: 710px;">
+  <div class="Signup position-absolute bg-white shadow rounded end-0" style="width: 400px; max-height: 700px;">
+    <div class="d-flex align-items-center justify-content-center" style="height: 80px;">
+      <h5>Đăng Ký</h5>
+    </div>
+    <div class="pt-0 pb-3 px-3">
+      <form name="frmLogin">
+        <div class="input-group">
+          <span class="input-group-text" id="basic-addon1"><i class="bi bi-person-fill"></i></span>
+          <input type="text" class="form-control" placeholder="Tên đăng nhập" required name="txtUsername"
+            ng-model="info.username">
+        </div>
+        <label ng-show="frmLogin.txtUsername.$invalid" class="text-danger">* Bạn chưa nhập Tên đăng nhập</label>
+        <div class="input-group mt-3">
+          <span class="input-group-text" id="basic-addon1"><i class="bi bi-envelope-fill"></i></span>
+          <input type="email" class="form-control" placeholder="Email" required name="txtEmail" ng-model="info.email">
+        </div>
+        <label ng-show="frmLogin.txtEmail.$invalid" class="text-danger">* Bạn chưa nhập Email đúng định dạng</label>
+        <div class="input-group mt-3">
+          <span class="input-group-text" id="basic-addon1"><i class="bi bi-telephone-fill"></i></span>
+          <input type="text" class="form-control" placeholder="Số điện thoại" minlength="10" maxlength="10" required
+            name="txtPhoneNumber" ng-model="info.phoneNumber">
+        </div>
+        <label ng-show="frmLogin.txtPhoneNumber.$invalid" class="text-danger">* Bạn chưa nhập Số điện
+          thoại</label>
+        <div class="input-group mt-3 position-relative">
+          <span class="input-group-text" id="basic-addon1"><i class="bi bi-lock-fill"></i></span>
+          <input type="password" class="form-control" placeholder="Mật khẩu" required
+            name="txtPassword" ng-model="info.password">
+        </div>
+        <label ng-show="frmLogin.txtPassword.$invalid" class="text-danger">* Bạn chưa nhập Mật khẩu</label>
+        <div class="input-group mt-3 position-relative">
+          <span class="input-group-text" id="basic-addon1"><i class="bi bi-lock-fill"></i></span>
+          <input type="password" class="form-control" placeholder="Xác nhận mật khẩu" required
+            name="txtValPassword" ng-model="info.Valpassword">
+        </div>
+        <label ng-show="frmLogin.txtValPassword.$invalid" class="text-danger">* Bạn chưa nhập Xác nhận mật khẩu</label>
+        <label ng-show="frmLogin.txtValPassword.$valid" ng-if="info.Valpassword != info.password" class="text-danger">* Xác nhận mật khẩu chưa đúng</label>
+        <div class="form-group mt-3">
+          <button type="submit" class="form-control btn btn-danger" ng-click="reg()">
+            Đăng Ký
+          </button>
+        </div>
+      </form>
+      <p class="w-100 text-center text-secondary mt-3">-- Hoặc Đăng Ký Với --</p>
+      <div class="w-100 d-flex text-center">
+        <a class="w-50 d-flex text-decoration-none py-2 border justify-content-center me-2 rounded" href="">
+          <i class="bi bi-facebook me-1"></i>
+          <p class="text-secondary m-0">Facebook</p>
+        </a>
+        <a class="w-50 d-flex text-decoration-none py-2 border justify-content-center rounded" href="">
+          <i class="bi bi-google text-warning me-1"></i>
+          <p class="text-secondary m-0">Google</p>
+        </a>
+      </div>
+    </div>
+    <div class="d-flex align-items-center justify-content-center" style="height: 60px;">
+      <div class="d-flex text-center">
+        <p class="text-secondary me-2">Bạn đã có tài khoản?</p>
+        <a class="text-decoration-none text-danger" href="#!Login">Đăng Nhập</a>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,7 +1,7 @@
 [
     {
         "id": "p1",
-        "name":"Du Lịch Bắc Hà Nội - Chùa Tam Chúc - Tam Cốc 1 ngày",
+        "name": "Du Lịch Bắc Hà Nội - Chùa Tam Chúc - Tam Cốc 1 ngày",
         "image": "./images/chua-tam-chuc-13.jpg",
         "sale": 890000,
         "price": 1220000,
@@ -9,7 +9,7 @@
     },
     {
         "id": "p2",
-        "name":"Du Lịch Bắc Hà Nội - Hạ Long - Hà Nội 2N1Đ",
+        "name": "Du Lịch Bắc Hà Nội - Hạ Long - Hà Nội 2 ngày 1 đêm",
         "image": "./images/Ha-Long-Sunworld-2(1).jpg",
         "sale": 3390000,
         "price": 3690000,
@@ -17,7 +17,7 @@
     },
     {
         "id": "p3",
-        "name":"Du Lịch Bắc Hà Nội - Hà Nội - Vịnh Hạ Long 1 Ngày",
+        "name": "Du Lịch Bắc Hà Nội - Hà Nội - Vịnh Hạ Long 1 Ngày",
         "image": "./images/4-1435539174.jpg",
         "sale": 1390000,
         "price": 1720000,
@@ -25,7 +25,7 @@
     },
     {
         "id": "p4",
-        "name":"Du Lịch Hà Giang - Đồng Văn - Cao Bằng - Bắc Kạn Từ Hà Nội",
+        "name": "Du Lịch Hà Giang - Đồng Văn - Cao Bằng - Bắc Kạn Từ Hà Nội",
         "image": "./images/e9122e22e5dd348c4a76d8c7c07c2f7c.jpg",
         "sale": 9790000,
         "price": 11690000,
@@ -33,7 +33,7 @@
     },
     {
         "id": "p5",
-        "name":"Du Lịch Hà Giang - Đồng Văn - Lũng Cú 3N2Đ",
+        "name": "Du Lịch Hà Giang - Đồng Văn - Lũng Cú 3 ngày 2 đêm",
         "image": "./images/ha-giang-4.jpg",
         "sale": 7890000,
         "price": 9220000,
@@ -41,7 +41,7 @@
     },
     {
         "id": "p6",
-        "name":"Du Lịch Bắc Hà Nội - Sơn La - Mộc Châu Từ Hà Nội 2N1Đ",
+        "name": "Du Lịch Bắc Hà Nội - Sơn La - Mộc Châu Từ Hà Nội 2N1Đ",
         "image": "./images/tour-khuyen-mai-mai-chau-moc-chau-2n-1d-vietmountain-travel3.jpg",
         "sale": 4390000,
         "price": 4990000,
@@ -49,7 +49,7 @@
     },
     {
         "id": "p7",
-        "name":"Du Lịch Miền Trung - Đà Nẵng - Sơn Trà - Bà Nà - Hội An - Huế 3N2Đ",
+        "name": "Du Lịch Miền Trung - Đà Nẵng - Sơn Trà - Bà Nà - Hội An - Huế 3N2Đ",
         "image": "./images/cau-vang-ba-na-3-360x225.jpg",
         "sale": 3000000,
         "price": 3220000,
@@ -57,7 +57,7 @@
     },
     {
         "id": "p8",
-        "name":"Du Lịch Tp.HCM - Măng Đen - Tà Đùng 3N3Đ",
+        "name": "Du Lịch Tp.HCM - Măng Đen - Tà Đùng 3N3Đ",
         "image": "./images/ivivu-ho-ta-dung-360x225.jpg",
         "sale": 2990000,
         "price": 3290000,
@@ -65,7 +65,7 @@
     },
     {
         "id": "p9",
-        "name":"Du Lịch Bắc Hà Nội - Lào Cai - Sapa - Ninh Bình - Tam Chúc - Hạ Long 5N4Đ",
+        "name": "Du Lịch Bắc Hà Nội - Lào Cai - Sapa - Ninh Bình - Tam Chúc - Hạ Long 5N4Đ",
         "image": "./images/ivivu-chua-tam-chuc-bia-n-360x225.jpg",
         "sale": 12590000,
         "price": 12720000,
@@ -73,7 +73,7 @@
     },
     {
         "id": "p10",
-        "name":"Du Lịch Phú Quốc - Grand World - 4 Đảo 3N2Đ",
+        "name": "Du Lịch Phú Quốc - Grand World - 4 Đảo 3N2Đ",
         "image": "./images/ivivu-sunset-sonato-1-204x153.jpg",
         "sale": 2640000,
         "price": 2990000,
@@ -81,7 +81,7 @@
     },
     {
         "id": "p11",
-        "name":"Du Lịch Đà Nẵng - Hội An - Quảng Bình - Huế 4N3Đ",
+        "name": "Du Lịch Đà Nẵng - Hội An - Quảng Bình - Huế 4N3Đ",
         "image": "./images/ivivu-kinh-thanh-hue-204x153.jpg",
         "sale": 6290000,
         "price": 6420000,
@@ -89,7 +89,7 @@
     },
     {
         "id": "p12",
-        "name":"Du Lịch Phan Thiết - Khám Phá Đảo Phú Quý từ Sài Gòn",
+        "name": "Du Lịch Phan Thiết - Khám Phá Đảo Phú Quý từ Sài Gòn",
         "image": "./images/du-lich-dao-phu-quy-du-lich-viet.jpg",
         "sale": 3390000,
         "price": 3990000,
@@ -97,7 +97,7 @@
     },
     {
         "id": "p13",
-        "name":"Du Lịch Buôn Ma Thuột - Pleiku - Kon Tum khu du Lịch Măng Đen từ Sài Gòn",
+        "name": "Du Lịch Buôn Ma Thuột - Pleiku - Kon Tum khu du Lịch Măng Đen từ Sài Gòn",
         "image": "./images/du-lich-buon-ma-thuot-du-lich-viet-1.jpg",
         "sale": 5200000,
         "price": 5490000,
@@ -105,7 +105,7 @@
     },
     {
         "id": "p14",
-        "name":" Du Lịch Nha Trang - Đà Lạt - Đồi Chè Cầu Đất từ Sài Gòn",
+        "name": " Du Lịch Nha Trang - Đà Lạt - Đồi Chè Cầu Đất từ Sài Gòn",
         "image": "./images/nha-tho-don-bosco-tet-am-lich-du-lich-viet.jpg",
         "sale": 4390000,
         "price": 4690000,
@@ -113,7 +113,7 @@
     },
     {
         "id": "p15",
-        "name":"Du Lịch Cam Ranh - Đảo Bình Ba từ Sài Gòn 2N1Đ",
+        "name": "Du Lịch Cam Ranh - Đảo Bình Ba từ Sài Gòn 2N1Đ",
         "image": "./images/du-lich-he-tua-dao-binh-ba-du-lich-viet-2021.jpg",
         "sale": 2390000,
         "price": 2720000,
@@ -121,7 +121,7 @@
     },
     {
         "id": "p16",
-        "name":"Du Lịch Đảo Bình Hưng - Ninh Chữ - Vườn Nho từ Sài Gòn",
+        "name": "Du Lịch Đảo Bình Hưng - Ninh Chữ - Vườn Nho từ Sài Gòn",
         "image": "./images/du-lich-ninh-chu-he-du-lich-viet.jpg",
         "sale": 2790000,
         "price": 3190000,
@@ -129,7 +129,7 @@
     },
     {
         "id": "p17",
-        "name":"Du Lịch Quy Nhơn - Phú Yên mùa Thu từ Sài Gòn",
+        "name": "Du Lịch Quy Nhơn - Phú Yên mùa Thu từ Sài Gòn",
         "image": "./images/du-lich-quy-nhon-mua-thu-du-lich-viet.jpg",
         "sale": 4890000,
         "price": 5220000,
@@ -137,7 +137,7 @@
     },
     {
         "id": "p18",
-        "name":"Du Lịch Quảng Ngãi - Đảo Lý Sơn - Đảo Bé - Vương Quốc Tỏi từ Sài Gòn",
+        "name": "Du Lịch Quảng Ngãi - Đảo Lý Sơn - Đảo Bé - Vương Quốc Tỏi từ Sài Gòn",
         "image": "./images/du-lich-quang-ngai-du-lich-viet-2022.jpg",
         "sale": 2390000,
         "price": 2990000,
